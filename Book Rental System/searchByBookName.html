@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Search by book name</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+           main{
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 25%;
+            transform: translate(-50%, -50%);
+           } 
+          nav{
+              padding-left: 20px;
+              padding-top: 10px;
+          }
+          .container{
+              color: darkgreen;
+              font-weight: bolder;
+             font-size: 25px;
+             padding-top: 100px;          }
+          button{
+              font-weight: bold;
+              background-color: darkcyan;
+              font-size: 20px;
+              background-color: Transparent;
+              background-repeat:no-repeat;
+              cursor:pointer;
+              overflow: hidden;   
+          }
+          button:hover{
+              color: blue;
+              border: none;
+          }
+    </style>
+</head>
+<body>
+   
+    <div class="background-search-image">
+        <nav>
+            <a  href="Homepage.html"><b>HomePage</b></a> &nbsp;
+            <a  href="searchbookHome.html"><b>back</b></a>  <br><br><br>
+        </nav>
+        </div>
+        <main>
+    <div class="container">
+        Enter the Book name to search:&nbsp;&nbsp;&nbsp;<input type="search" placeholder="Enter the book name" name="bookname"><br>
+        <pre>                       <button>Search</button></pre>
+    </div>
+</main>
+</body>
+</html>
