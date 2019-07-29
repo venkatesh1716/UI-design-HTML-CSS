@@ -1,0 +1,16 @@
+
+   a:active{
+    background-color: yellow;
+  }
+  a:hover{
+    background-color: aqua;
+  }
+  a:focus{
+    background-color: blanchedalmond;
+  }
+
+  body{
+      padding: 5px 5px 5px 50px;
+      border-color: rgb(10, 86, 116);
+      border-style: double 
+  }
