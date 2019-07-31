@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Book Rental System</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            background: darkcyan;
+        }
+        .container{
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 100%;
+ 
+        }
+        .container span .text1, .text2{
+            color: white;
+            text-transform: uppercase;
+            display: block;
+       }
+       .text1{
+           color: white;
+           font-size: 60px;
+           font-family: "Comic Sans MS";
+           font-weight: 700;
+           letter-spacing: 8px;
+           margin-bottom: 20px;
+           position: relative;
+           animation: text 10s 1;
+       }
+       .text2{
+           color: #6ab04c;
+           font-size: 30px;
+           font-weight: 700;
+           letter-spacing: 8px;
+           margin-bottom: 20px;
+       }
+       .container span .text3{
+        text-transform: lowercase;
+       }
+       a:hover{
+           color: yellow;
+           animation: text 3s 1;
+       }
+       @keyframes text{
+           0%{
+               color: darkcyan;
+               margin-bottom: -40px;
+           }
+           30%{
+              letter-spacing: 25px;
+               margin-bottom: -40px;
+           }
+       80%{
+              letter-spacing: 8px;
+               margin-bottom: -40px;
+           }
+       }
+       nav{
+           float: right;
+           padding-right: 200px;
+           padding-top: 35px;
+           font-size: 20px;
+       }
+       a{
+           font-size: 20px;
+           padding-left: 10px;
+       }
+      
+     
+       #modified #sub-container ul{
+           list-style: none;
+           padding: 10px;
+       }
+       #modified #sub-container ul ul{
+           display: none;
+       }
+       #modified #sub-container ul li{
+           /* background-color: #3c2E94;
+           border: 1px solid white; */
+           background-color: transparent;
+           width: 150px;
+           height: 50px;
+           line-height: 50px;
+           text-align: center;
+           float: left;
+       }
+       #modified #sub-container ul li:hover{
+           background-color: aquamarine;
+       }
+       #modified #sub-container ul li:hover >ul{
+           display: block;
+       }
+       
+       #sub-container{
+           display: flex;   
+           padding-top: -20px;
+       }
+       .searchbox{
+           margin-top: -60px;
+           margin-left: 1000px;
+           position: fixed ;
+       }
+
+    </style>
+
+</head>
+<body>
+    
+    <div id="modified">
+        <div id="sub-container">
+            <ul>
+                <li><a href="bookslist.html" style="color: white">Books</a>
+                    <!-- <ul>
+                        <li><a target="_blank" href="addbooks.html" style="color: white" >Add New book</a></li>
+                        <li> <a href="bookslist.html" style="color: white" >All Books</a></li>
+                    </ul>   -->
+                <li><a target="_blank" href="addbooks.html" style="color: white" >Add New book</a></li>
+                <li><a target="_blank" href="borrowerslist.html" style="color: white">Borrowers</a></li>
+                <li><a target="_blank" href="deletebook.html" style="color: white">Delete Book</a></li>
+                <li><a target="_blank" href="ReturnBook.html" style="color: white">Return Book</a></li>
+                <li><a href="#" style="color: white">Sign Up</a></li>
+            </ul>
+        </div>
+        <div class="searchbox">
+        <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+            <input type="text" placeholder="Title, Author, ISBN" name="search2">
+            <button type="submit">Search</i></button>   
+        </form>
+    </div>
+    </div>
+    <div class="image">
+            <img src="images/homepage.jpg" width="100%" height="800px" alt="Book Rental System">
+        </div>
+     <div class="container">
+        <span class="text1">WELCOME TO BOOK RENTAL SYSTEM</span>
+        <span class="text2">TrimindTech Solutions</span><br><br>
+        <span class="text3">
+                <!-- <a href="Homepage.html">Go to Homepage</a> -->
+        </span>
+    </div>
+
+</body>
+</html>

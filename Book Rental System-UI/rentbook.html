@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rent Book</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .rent-container{
+            padding-left: 200px;
+            padding-top: 100px;
+        }
+        nav{
+            padding-left: 10px;
+
+        }
+        a{
+            color: white;
+            font-size: 18px;
+        }
+        a:hover{
+            color: yellow;
+            
+        }
+        .container{
+            
+            padding: 2px 10px 10px;
+            position: absolute;
+            color: yellow;
+            font-size: 20px;
+            top: 50%;
+            left: 25%;
+            border:  5px solid darkcyan;
+            width: 500px;
+            transform: translate(-50%, -50%);
+        }
+        #button{
+            color: green;
+            font-weight: bold;
+        }
+        h4{
+            padding-left: 50px;
+            font-size: 20px;
+            
+            }
+            button{
+                color: white;
+                font-weight: bold;
+                font-size:17px;
+                background-color: darkcyan;
+            }
+            button:hover{
+                color: yellow;
+                border: none;
+                background-color: transparent;
+                cursor: pointer;
+            }
+            input[type=number] {
+                 height: 25px;
+            }
+            .rent-container {
+               padding-left: 300px;
+            }
+    </style>
+</head>
+
+<body>
+    <div class="rent-image">
+            <nav>
+                <a href="home.html"><b>Homepage</b></a><br><br>
+            </nav>
+    </div>
+    
+    <div class="rent-container">
+        <div class="container">
+            <h4>Borrower Information</h4><hr><br>
+        <label for="">First Name</label><br>
+        <input type="text" style="height: 25px" placeholder="  first Name" size="55"><br><br>
+        Last name<br>
+        <input type="text" style="height: 25px" placeholder="  last Name" size="55"><br><br>
+        E-mail<br>
+        <input type="email" style="height: 25px" placeholder="  your E-mail" size="55"><br><br>
+        Book ID<br>
+        <input type="number" style="width: 29em" style="height: 25px" placeholder="  Book Id" ><br><br>
+        No of Days Loan<br>
+        <input type="number"  style="width: 29em" placeholder="  rent days" size="55"><br><br>
+        <pre>                  <button>Rent Book</button></pre>
+    </div>
+</div>
+    
+</body>
+</html>

@@ -1,0 +1,268 @@
+
+
+
+#add-book, #delete-book,  #list-borrower, #list-books, #rent-book, #return-book, #search-book {
+    padding-top: 20px;
+    padding-left: 480px;
+    font-size: 25px;
+}
+
+/* 
+.addbooks{
+    padding-left: 400px;
+} */
+.search-by-ID{
+    padding-left: 360px;
+    padding-top: 50px;
+}
+.search-by-book{
+    padding-left: 360px;
+    padding-top: 50px;
+}
+h1{
+    padding-left: 350px;
+    padding-top: 25px;
+}
+.background-image {
+    background-image: url('images/book1.png');     
+    background-color: #cccccc;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.listbooks-image{
+    background-image: url('images/library.jpg');     
+    background-color: #cccccc;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.background-image-addbook{
+    background-image: url('images/library.jpg');     
+    background-color: #cccccc;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.list-container{
+    padding-left: 220px;
+    padding-top: 5px;
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            color: yellow;
+            left: 25%;
+            transform: translate(-50%, -50%);
+}
+.background-search-image{
+    background-image: url('images/search.jpg');     
+    background-color: #cccccc;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-weight: bold;
+    font-size: 18px;
+}
+a:hover{
+    color: yellow;
+
+}
+.borrowers-image{
+    background-image: url('images/library.jpg');     
+    background-color: #cccccc;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.return-image{
+    background-image: url('images/library.jpg');     
+    height: 800px;
+    padding-top: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.rent-image{
+    background-image: url('images/library.jpg');     
+    height: 800px;
+    padding-top: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+div .lifetime-image{
+    padding-top: 40px;
+    padding-left: 20px;
+    display: flex;
+    width: 200px;
+    height: 350px;
+    /* border: 1px solid; */
+   }
+   div .lifetime-image button, .spring-image button, .download1-spring-image button, .download2-spring-image button, 
+   .download6-spring-image button, .download4-spring-image button, .silent-spring-image button,.download3-spring-image button
+    {
+    background-color: red;
+    font-size: 20px;
+    width: 100px;
+    margin-left:10px;
+    display: flex;
+    color: white;
+    height: auto;
+   }
+  
+   div .spring-image{
+    padding-top: 50px;
+    display: flex;
+    margin-top: -150px;
+    padding-left: 20px;
+    width: 250px;
+    /* border: 1px solid; */
+    float: left;
+    height: 350px;
+   }
+  
+   div .download2-spring-image{
+    padding-top: 50px;
+    padding-left: 20px;
+    display:flex;
+    width: 250px;
+    
+    margin-top: -400px;
+    margin-left: 600px;
+    height: 350px;
+    /* border: 1px solid; */
+   }
+
+   div .download6-spring-image{
+    padding-top: 50px;
+    padding-left: 20px;
+    width: 250px;
+    margin-top: -400px;
+    margin-left: 900px;
+    display:flex;
+
+    height: 350px;
+    /* border: 1px solid; */
+   }
+   div .download4-spring-image{
+    padding-left: 20px;
+    padding-top: 50px;
+    width: 250px;
+   
+    margin-top: -400px;
+    margin-left: 1200px;
+    display:flex;
+    height: 300px;
+    /* border: 1px solid; */
+
+   }
+   div .download3-spring-image{
+    padding-top: 50px;
+    padding-left: 20px;
+    width: 220px;
+    display:flex;
+    margin-top: -400px;
+    margin-left: 300px;
+    height: 350px;
+    /* border: 1px solid; */
+   }
+   div .download1-spring-image{
+    padding-top: 50px;
+    padding-left: 20px;
+    display:flex;
+    width: 250px;
+    float: left;
+    margin-top: -155px;
+    margin-left: 50px;
+    height: 350px;
+    /* border: 1px solid; */
+   }
+   div .silent-spring-image{
+    width: 220px;
+    float: left;
+    margin-top:-150px;
+    padding-top: 50px;
+    display:flex;
+    padding-left: 50px;
+    height: 350px;
+    /* border: 1px solid; */
+   }
+.main-container ul li{
+  background-color: #3c3e94;
+  width: 150px;
+  border: 1px solid white;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  float: left;
+  color:white;
+  font-size: 18px;
+  position: relative;
+}
+.main-container ul li:hover{
+  background-color: #388222;
+  }
+
+  .main-container ul{
+    list-style: none;
+    height: 50px;
+    padding-left: 0px;
+}
+
+.main-container ul ul{
+    display: none;
+}
+.main-container ul li:hover > ul{
+    display: block;
+}
+.main-container ul ul ul{
+    margin-left: 150px;
+    top: 0px;
+    position: absolute;
+
+}
+
+
+#modified form.example input[type=text] {
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    height: 35px;
+    background: white;
+  }
+
+  #modified form.example button {
+    float: left;
+    width: 17%;
+    height: 37px;;
+    background: #2196F3;
+    color: white;
+    font-size: 12px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+ 
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Delete Book</title>
+    <link rel="stylesheets" href="styles.css">
+    <style>
+        .containers
+        {
+            padding-left: 220px;
+            padding-top: 5px;
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            color: darkcyan;
+            left: 25%;
+            transform: translate(-50%, -50%);
+        }
+        .delete-image{
+            background-image: url('images/book.jpg');     
+            background-color: #cccccc;
+            height: 800px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        b{
+            font-size: 20px;
+            color: black;
+        }
+        a:hover{
+            color: yellow;
+        }
+        a{
+            font-weight: bold;
+            font-size: 18px;
+        }
+#delete{
+    color: darkcyan;
+    font-weight: bold;
+}
+button{
+    color: black;
+    background-color: darkcyan;
+    font-size: 20px;
+}
+button:hover{
+    color: white;
+    border:none;
+    background-color: transparent;
+}
+    </style>
+</head>
+<body>
+        <div class="delete-image">
+            <nav class="homepage">
+                <a href="homepage.html"><b>Homepage</b></a><br><br>
+            </nav>
+        </div>
+        <main>
+        <div class="containers">
+            <pre><b>   Enter the book name to Delete:</b></pre>&nbsp;&nbsp;<input type="search" placeholder="Enter the book name"><br><br>
+        <pre>   <button>  Delete  </button></pre>
+    </div>
+</main>
+</body>
+</html>
