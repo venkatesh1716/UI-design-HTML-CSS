@@ -14,17 +14,16 @@
             left: 25%;
             color:yellow;
             transform: translate(-50%, -50%);
+            width: 100%;
     }
     a{
         font-weight:bold;
         font-size: 20px;
         color:	551A8B;
-    }
-    nav{
-        padding: 10PX;
-    }
-    h4{
-        background-color: blue;
+        float: left;
+        padding-top: 1px;
+        padding-left: 10px;
+       
     }
     button{
         font-weight: bold;
@@ -41,34 +40,63 @@
         cursor:pointer;
         overflow: hidden;
     }
+    main .addbooks{
+        color: black;
+        width: 250px;
+    }
+   
     #details{
         font-size: 20px;
+        
+    }
+    h4{
+        font-size: 25px;
+    }
+    .addbooks{
+        float: right;
+       height: 650px;
+        border: 5px solid darkcyan;
+        padding-right: 150px;
+        padding-left: 100px;
+        font-weight: bold;
+    }
+    input[type=text] {
+                 height: 25px;
+            }
+
+    select {
+        width: 350px;
+        height: 30px;
     }
     </style>
 </head>
 <body>
         <div class="background-image-addbook">
             <nav>
-              <a href="Homepage.html"><b>Home Page</b></a> 
+              <a href="homepage.html"><b>Home Page</b></a> 
             </nav>
         </div>
         <main>
-        <!-- <h1><u>Add new Book into the catalogue</u></h1><br> -->
         <div class="addbooks">
-            <h4>Please provide all the information below:</h4>
+            <h4>Book details</h4><hr>
         <form id="details" name="Simple-Login-form" action="login">
-            <br><br>
-            Enter the Author Name &nbsp;&nbsp;<input placeholder="Enter Author name" name="authorname"><br><br>
-            Enter the Book Name&nbsp;&nbsp; &nbsp;&nbsp;<input placeholder="Enter Book name" name="bookname"><br><br>
-            Enter Book ISBN&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<input placeholder="Enter ISBN number" name="isbn"><br><br>
-            Enter Book Type:&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+            <br>
+            Enter the Author Name<br>
+            <input type="text" style="width: 350px"  placeholder=" Author name" size="55" name="authorname"><br><br>
+            Enter the Book Name <br>
+            <input type="text" style="width: 350px"  placeholder=" Book name" name="bookname"><br><br>
+            Enter Book ISBN<br>
+            <input type="text" style="width: 350px"  placeholder=" ISBN number" name="isbn"><br><br>
+            Enter Book Type <br>
             <select name="booktype" id="booktype">
                 <option value="one" >Academic</option>
                 <option value="two">Non-Academic</option>
                 <option value="one" selected disabled hidden>Choose here</option>
             </select><br><br>
-            Enter Book Stock &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input placeholder="Enter Book stock" name="stock"><br><br>
-            Enter the Book Id &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<input placeholder="Enter Book ID" name="bid"><br><br>
+            Enter Book Stock<br>
+            <input type="text" style="width: 350px"  placeholder=" Book stock" name="stock"><br><br>
+            Enter the Book Id<br>
+            <input type="text" style="width: 350px"  placeholder=" Book ID" name="bid"><br>
                <pre>                   <button>Add Book</button></pre>
         </div>
         </form>
